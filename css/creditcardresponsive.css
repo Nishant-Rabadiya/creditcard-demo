@@ -1,0 +1,290 @@
+/* @media only screen and (max-width: 1400px) {
+
+} */
+
+@media only screen and (max-width: 1199px) {
+    .user-card {
+        /* width: 115%; */
+        width: 370px;
+        left: 45px;
+    }
+
+    .user-card-back {
+        /* width: 115%; */
+        width: 370px;
+        left: 115px;
+        top: 130px;
+    }
+
+    .credit-card-details {
+        width: 40%;
+    }
+
+    .res-card-expiry {
+        padding: 1px 40px 1px 1px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .user-card {
+        width: 370px;
+        left: 30px;
+    }
+
+    .user-card-back {
+        width: 370px;
+        left: 45px;
+    }
+
+    .credit-card-details {
+        width: 60%;
+        padding-left: 59px;
+    }
+
+    .res-card-expiry {
+        padding: 1px 40px 1px 1px;
+    }
+
+    .credit-card {
+        width: 34%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .user-card {
+        width: 340px;
+        height: 185px;
+        position: relative;
+        left: 65px;
+        top: 85px;
+        z-index: 1;
+    }
+
+    .user-card-back {
+        width: 340px;
+        height: 185px;
+        position: absolute;
+        left: 210px;
+        top: 10px;
+    }
+
+    .credit-card-details {
+        width: 75%;
+    }
+
+    .res-card-expiry {
+        padding: 1px 40px 1px 1px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .main-card {
+        width: 100%;
+    }
+
+    .credit-card {
+        width: 100%;
+        height: 230px;
+    }
+
+    .credit-card-input {
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+
+    .card-expiry-input {
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+
+    .res-card-expiry {
+        padding: 2px 40px 1px 1px;
+    }
+
+    .credit-card-input-header {
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+
+    .user-card-number {
+        font-size: 22px;
+        padding: 31px 0 0 0;
+    }
+
+    .card-cvc-number {
+        padding: 3px 10px;
+    }
+
+    .res-card-expiry {
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+
+    .credit-card-details {
+        padding-left: 0;
+    }
+
+    .card-name {
+        font-size: 20px;
+    }
+
+    .card-back-footer {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .user-card-back {
+        left: 101px;
+        height: 175px;
+    }
+
+    .user-card {
+        height: 175px;
+        left: 30px;
+        top: 115px;
+    }
+
+    .card-cvc-number {
+        padding: 2px 10px;
+        margin: 14px;
+    }
+
+    .circle {
+        height: 55px;
+    }
+
+    .credit-card-details {
+        width: 75%;
+    }
+
+    .card-name {
+        margin: 1px;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 459px) {
+    .user-card-back {
+        left: 95px;
+        height: 160px;
+        width: 280px;
+    }
+
+    .user-card {
+        height: 160px;
+        width: 280px;
+        left: 31px;
+        top: 102px;
+    }
+
+    .circle {
+        height: 43px;
+    }
+
+    .card-back-line {
+        padding: 18px;
+    }
+
+    .card-name {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .user-card-circle {
+        height: 40px;
+        width: 40px;
+    }
+
+    .card-back-footer {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 379px) {
+    .user-card-back {
+        left: 80px;
+        height: 116px;
+        width: 180px;
+    }
+
+    .user-card {
+        height: 116px;
+        width: 180px;
+        left: 31px;
+        top: 102px;
+    }
+
+    .card-back-line {
+        padding: 10px;
+    }
+
+    .card-cvc-number {
+        padding: 2px 4px;
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    .card-back-footer {
+        margin: 0px;
+        font-size: 6px;
+    }
+
+    .credit-card-demo {
+        height: 69% !important;
+    }
+
+    .user-card-circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .card-header-section {
+        border: 1px solid white;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        margin-left: 9px;
+    }
+
+    .user-card-number {
+        font-size: 10px;
+        padding: 15px 0 0 0;
+    }
+
+    .user-card-details,.card-name {
+        font-size: 10px;
+    }
+
+    .user-card-name-date {
+        margin-top: 10px;
+    }
+
+    .user-card {
+        top: 75px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .res-card-expiry {
+        font-size: 10px;
+        padding: 7px 0px;
+    }
+
+    .credit-card-input-header {
+        font-size: 10px;
+        padding: 7px 0;
+    }
+
+    .card-expiry-input, .credit-card-input {
+        font-size: 12px;
+        padding: 7px;
+    }
+}

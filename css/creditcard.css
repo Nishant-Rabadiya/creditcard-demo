@@ -1,0 +1,225 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family:monospace; */
+    /* font-weight: 600; */
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body, .credit-card-input,.card-expiry-input, .arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.credit-card-demo {
+    height: 100% !important;
+    background: linear-gradient(167deg, rgba(34,9,49,1) 2%, rgba(81,43,143,1) 22%, rgba(77,29,69,1) 48%, rgba(47,43,91,1) 63%, rgba(34,9,49,1) 84%);
+}
+
+.main-card-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+}
+
+.row {
+    display: flex;
+    height: 100% !important;
+}
+
+.form {
+    height: 100% !important;
+}
+
+.credit-card {
+    width: 30%;
+}
+
+.main-card {
+    width: 70%;
+}
+
+.user-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 90%;
+    height: 210px;
+    border-radius: 10px;
+    padding: 15px;
+    background: linear-gradient(135deg, rgba(97,72,252,1) 0%, rgba(102,53,223,1) 10%, rgba(117,43,111,1) 32%, rgba(85,39,156,1) 48%, rgba(102,63,199,1) 65%, rgba(217,106,104,1) 84%, rgba(95,3,142,1) 100%);
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.user-card-details {
+    margin: 0px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+}
+
+.card-name {
+    color: white;
+    margin: 0;
+}
+
+.user-card-circle {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px 0 0 0;
+    color: white;
+    background-color: white;
+}
+
+.card-header-section {
+    border: 2px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.user-card-number {
+    font-size: 25px;
+    padding: 40px 0 0 0;
+    font-weight: 600;
+    color: white;
+}
+
+.user-card-name-date {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 15px;
+}
+
+.user-card-back {
+    border-radius: 10px;
+    padding: 20px 0;
+    width: 90%;
+    height: 210px;
+    background-color: #d0d3da;
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.card-back-line {
+    margin: 0;
+    background-color: #2f2f2f;
+    padding: 25px;
+}
+
+.user-card-cvc {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-cvc-number {
+    width: 80%;
+    text-align: end;
+    background-color: #adb6bd;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card-back-footer {
+    margin: 0px;
+    font-weight: 900;
+    color: #adb6bd;
+}
+
+.main-card {
+    width: 70%;
+}
+
+.credit-card-details {
+    width: 35%;
+}
+
+.credit-card-holder-card-details,
+.card-expiry-details {
+    display: flex;
+}
+
+.credit-card-expiry,
+.credit-card-cvc {
+    width: 50%;
+}
+
+.credit-card-input {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid gray;
+}
+
+.card-expiry-input {
+    width: 40%;
+    margin: 0px 10px 0px 0px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid gray;
+}
+
+.credit-card-input-header {
+    margin: 0px;
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #6b6b6b;
+}
+
+.credit-card-confirm-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #433f3f;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.error {
+    margin: 0px;
+    height: 30px;
+    color: red;
+    padding: 5px 0 0 0;
+    font-size: 11px;
+}
+
+.error-border {
+    border: 1px solid red;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

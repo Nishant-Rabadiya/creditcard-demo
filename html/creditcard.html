@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/creditcard.css">
+    <link rel="stylesheet" href="/css/creditcardresponsive.css">
+</head>
+
+<body>
+    <div class="row">
+        <section class="credit-card">
+            <div class="credit-card-demo">
+                <div class="user-card" id="userCard">
+                    <div class="user-card-header">
+                        <div class="circle">
+                            <h1 class="user-card-details user-card-circle"></h1>
+                            <h4 class="card-header-section"></h4>
+                        </div>
+                        <h2 class="card-name" id="userCardName"></h2>
+                    </div>
+                    <p class="user-card-details user-card-number" id="userCardNumber">0000 0000 0000 0000</p>
+                    <div class="user-card-name-date">
+                        <p class="user-card-details" id="userCardHolderName">Card holder name</p>
+                        <p class="user-card-details"><span id="cardMonth">00</span>/<span id="cardYear">00</span></p>
+                    </div>
+                </div>
+                <div class="user-card-back" id="userCardCvc">
+                    <h2 class="card-back-line"></h2>
+                    <div class="user-card-cvc">
+                        <p class="card-cvc-number" id="cardCVCnumber">000</p>
+                    </div>
+                    <pre class="card-back-footer">
+                    ___ __ ________ _
+                    ____ _____ ______
+                    _____ ___ _ _____
+                    </pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-card">
+            <form id="form" class="form" onsubmit="confirmDetails(event)">
+                <div class="main-card-details">
+                    <div class="credit-card-details">
+
+                        <div id="cardHolder">
+                            <p class="credit-card-input-header holder-name">CARDHOLDER NAME</p>
+                            <input type="text" class="credit-card-input credit-card-all-input" id="cardHolderName"
+                                placeholder="e.g Jane Appleseed" name="cardHolderName" maxlength="32" />
+                            <p class="error" id="cardHolderNameError"></p>
+                        </div>
+
+                        <div id="cardNumber">
+                            <p class="credit-card-input-header">CARD NUMBER</p>
+                            <input type="text" class="credit-card-input credit-card-all-input" id="cardNumberInput"
+                                placeholder="e.g 1234 5678 9123 0000" maxlength="19" />
+                            <p class="error" id="cardInputError"></p>
+                        </div>
+
+                        <div class="credit-card-holder-card-details">
+                            <div class="credit-card-expiry" id="dateExpiry">
+                                <p class="credit-card-input-header res-card-expiry">EXP. DATE (MM/YY)</p>
+                                <div class="card-expiry-details">
+                                    <input type="text" class="card-expiry-input credit-card-all-input" id="cardMonthExpiry" placeholder="MM"
+                                        maxlength="2" />
+                                    <input type="text" class="card-expiry-input credit-card-all-input" id="cardYearExpiry" placeholder="YY"
+                                        maxlength="2" />
+                                </div>
+                                <p class="error" id="cardExpiryError"></p>
+                            </div>
+
+                            <div class="credit-card-cvc" id="cvcCardNumber">
+                                <p class="credit-card-input-header">CVC</p>
+                                <input type="text" class="credit-card-input credit-card-all-input" id="cvcNumber" placeholder="e.g 123"
+                                    maxlength="4" />
+                                <p class="error" id="cvcError"></p>
+                            </div>
+                        </div>
+
+                        <button class="credit-card-confirm-btn" type="submit" value="Submit"
+                            id="confirmCardDetails" onsubmit="confirmDetails(event)">Confirm</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="/javaScript/creditcardvalidation.js"></script>
+</body>
+</html>

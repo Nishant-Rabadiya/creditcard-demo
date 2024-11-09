@@ -1,0 +1,12 @@
+{
+  "credit-card-details": [
+    {
+      "id": "9699",
+      "cardHolderName": "nishant rabaadiya",
+      "cardNumber": "1800 6696 6588 963",
+      "monthExpiry": "4",
+      "yearExpiry": "25",
+      "cvcNumber": "2323"
+    }
+  ]
+}
